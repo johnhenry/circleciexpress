@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  build:
+  node-tests:
     docker: #  tircleci/node:10.0.0 # the primary container, where your job's commands are run
         - image: circleci/node:10.0.0  # run in the background
     steps:
